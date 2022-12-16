@@ -1,0 +1,30 @@
+raw_data.shape
+    (208, 61)
+
+
+raw_data[60].value_counts()
+    M    111
+    R     97
+    Name: 60, dtype: int64
+
+
+X.shape
+    (208, 60)
+
+
+y.shape
+    (208, 1)
+
+
+X_train.shape
+y_train.shape
+X_test.shape
+y_test.shape
+    (187, 60)
+    (187, 1)
+    (21, 60)
+    (21, 1)
+
+
+predictions.shape
+    (187,)

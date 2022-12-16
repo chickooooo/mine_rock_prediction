@@ -1,0 +1,22 @@
+Model 1: Logistic Regression
+features: all
+parameters: default
+performance metric: accuracy
+train set score: 0.9090909090909091
+cross validation score: 0.769416785206259
+note: model is overfitting
+
+
+Model 2: Logistic Regression (selected model)
+features: [0, 2, 3, 6, 7, 8, 10, 11, 22, 23, 30, 35, 36, 38, 39, 44, 45, 47, 48, 49, 50, 51, 53]
+parameters: C=0.2
+performance metric: accuracy
+train set score: 0.8449197860962567
+cross validation score: 0.8011379800853484
+note: more regularized than last model
+
+
+Performance on test set:
+accuracy: 0.8095238095238095        (model has 81% effeciency to distinguish between rocks and mines)
+recall: 0.9090909090909091          (model was able to detect 91% of mines)
+precision: 0.7692307692307693       (out of all detected mines, only 77% where actually mines)
